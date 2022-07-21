@@ -1,0 +1,80 @@
+<div class="flex bottom bottom-1">
+    <div class="inner-bottom"> </div>
+    <div class="curve curve1"> </div>
+  </div>
+  <div class="flex top">
+    <div class="inner-top"> </div>
+  </div>
+  <div class="flex bottom bottom-2">
+    <div class="inner-bottom"> </div>
+    <div class="curve curve2"> </div>
+  </div>
+  <style>
+    body {
+      display: flex;
+      flex-flow: row;
+      align-items:center;
+      justify-content: center;
+      background: #F5D6B4
+    }
+    .flex {
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+    }
+    .top {
+      width: 100px;
+      height: 50px;
+      background: #dd6b4d;
+      top: -25px;
+      border-radius: 50px 50px 0 0;
+      position: relative;
+    }
+    .inner-bottom {
+      position: absolute;
+    }
+    .bottom {
+      position:relative;
+      width: 100px;
+      height: 50px;
+      bottom: -25px;
+      background: #dd6b4d;
+      border-radius: 0 0 50px 50px;
+    }
+    .bottom-1 {
+      left: 20px;
+    }
+    .bottom-2 {
+      left: -20px;
+    }
+    .inner-bottom {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #F5D6B4;
+      top: -30px
+    }
+    .inner-top {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      top: 20px;
+      border-radius: 50%;
+      background: #F5D6B4
+    }
+    .curve {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #D86F45;
+      border-radius: 50%;
+      top: -10px
+    }
+    .curve1 {
+      left: 0;
+    }
+    .curve2 {
+      right: 0;
+    }
+  </style>
