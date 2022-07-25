@@ -1,0 +1,77 @@
+<div class="flex ring2 semi-ring">
+    <div class="absolute ring inner-ring inner-ring2"> </div>
+  </div>
+  <div class="flex ring ring1">
+      <div class="flex ring inner-ring1" > 
+        <div class="ring inner-inner-ring"> </div>
+    </div>
+  </div>
+  <div class="ring3 semi-ring">
+      <div class="absolute ring inner-ring inner-ring3"> </div>
+  </div>
+  <style>
+    .absolute {
+      position: absolute
+    }
+    .semi-ring {
+      aspect-ratio: 2
+    }
+    .ring {
+      aspect-ratio: 1;
+      border-radius: 50%
+    }
+    .flex {
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center
+    }
+    body {
+      background: #191210;
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center
+    }
+    .ring1 {
+      width: 140px;
+      background: #ECA03D;
+      position: relative
+    }
+    .inner-ring1 {
+      width: 100px;
+      background: #191210
+    }
+    .inner-inner-ring {
+      width: 50px;
+      background: #84271C
+    }
+    .ring3 {
+      position: relative;
+      width: 100px;
+      background: #ECA03D;
+      top: -25px;
+      left: -20px;
+      border-radius: 50px 50px 0 0
+    }
+    .ring2 {
+      position: relative;
+      width: 100px;
+      background: #ECA03D;
+      top: 25px;
+      left: 20px;
+      border-radius: 0 0 50px 50px
+    }
+    .inner-ring {
+      width: 60px;
+      background: #191210
+    }
+    .inner-ring2 {
+      top: -30px
+    }
+    .inner-ring3 {
+      top: 20px;
+      left: 20px
+    }
+  </style>
+  
