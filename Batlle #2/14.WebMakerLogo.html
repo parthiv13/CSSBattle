@@ -1,0 +1,46 @@
+<div class="center"> 
+    <div class="triangle down-orange"></div>
+    <div class="triangle down-red"></div>
+    <div class="triangle up-orange"></div>
+    <div class="triangle up-red"></div>
+  </div>
+  <style>
+    body {
+      margin: 0;
+      background: #F2F2B6;
+    }
+    .center {
+      height: 100vh;
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .triangle {
+      width: 0;
+      height: 0;
+      position: relative;
+      border-left: 75px solid transparent;
+      border-right: 75px solid transparent;
+    }
+    .down-orange {
+      border-top:130px solid #FF6D00;
+      left: 160px;
+      z-index: 999;
+    }
+    .down-red {
+      border-top:130px solid #FD4602;
+      left: 30px;
+      z-index: -999
+    }
+    .up-orange {
+      border-bottom: 130px solid #FF6D00;
+      z-index: -999;
+      right: 10px
+    }
+    .up-red {
+      border-bottom: 130px solid #FD4602;
+      right: 180px
+    }
+  </style>
+  
