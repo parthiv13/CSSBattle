@@ -1,0 +1,36 @@
+<div class="box box1"></div>
+<div class="box box2"></div>
+<div class="box box3"></div>
+<style>
+  body {
+    background: #0B2429;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+  }
+  .box1 {
+   	top: 60px;
+    left: 60px;
+    background: #F3AC3C;
+    border-radius: 50% 0% 50% 50%;
+    z-index: 3;
+  }
+  .box2 {
+    background: #998235;
+    border-radius: 50% 0 50% 0;
+    z-index: 2;
+  }
+  .box3 {
+    top: -60px;
+    left: -60px;
+    background: #F3AC3C;
+    border-radius: 50%;
+    z-index: 1;
+  }
+</style>
