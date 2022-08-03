@@ -1,0 +1,46 @@
+<div>
+   <div class="leaf large border-left green"></div>
+   <div class="leaf small border-left yellow"></div>
+</div>
+<div>
+   <div class="leaf small border-right yellow"></div>
+   <div class="leaf large border-right green"></div>
+</div>
+<style>
+   body {
+      margin: 0;
+      background: #998235;
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center;
+   }
+   .leaf {
+      width: 80px;    
+   }
+   div > .leaf:nth-child(1) {
+      margin-bottom: 20px
+   }
+   .small {
+      height: 60px;
+   }
+   .large {
+      height: 100px;
+   }
+   .bottom {
+      margin-bottom: 20px
+   }
+   .yellow {
+      background: #F3AC3C;
+   }
+   .green {
+      background: #1A4341;
+   }
+   .border-left {
+      margin-right: 20px;
+      border-radius: 0 50px
+   }
+   .border-right {
+      border-radius: 50px 0
+   }
+</style>
