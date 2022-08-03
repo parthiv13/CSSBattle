@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="box semi1"></div>
+  <div class="box semi2"></div>
+</div>
+<div class="row">
+    <div class="box semi3"></div>
+  <div class="box semi4"></div>
+</div>
+<style>
+body {
+  background: #E3516E;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+.row {
+  height: 100px;
+  width: 200px;
+  display: flex;
+  flex-flow: row;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.semi1 {
+  border-radius: 100% 0 0;
+  background: #51B5A9;
+}
+.semi2 {
+  border-radius: 0 100% 0 0;
+  background: #FADE8B;
+}
+.semi3 {
+  border-radius: 0 0 0 100%;
+  background: #F7F3D7;
+}
+</style>
