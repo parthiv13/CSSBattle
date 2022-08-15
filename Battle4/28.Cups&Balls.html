@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="box circle a"></div>
+    <div class="box bullet-down b"></div>
+  </div>
+  <div class="container">
+    <div class="box bullet-up b"></div>
+    <div class="box circle a"></div>
+  </div>
+  <div class="container">
+    <div class="box bullet-up a"></div>
+    <div class="box circle b"></div>
+  </div>
+  <div class="container">
+    <div class="box circle b"></div>
+    <div class="box bullet-down a"></div>
+  </div>
+  <style>
+    body {
+      margin: 0;
+      background: #1A4341;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+    .container {
+      display: flex;
+      flex-flow: column;
+      gap: 20px;
+      justify-content: center;
+    }
+    .box {
+      width: 50px;
+      height: 50px;
+    }
+    .circle {
+      border-radius: 50%;
+    }
+    .bullet-up {
+      border-radius: 50% 50% 0 0;
+    }
+    .bullet-down {
+      border-radius: 0 0 50% 50%;
+    }
+    .a {
+      background: #998235;
+    }
+    .b {
+      background: #F3AC3C;
+    }
+  </style>
+  

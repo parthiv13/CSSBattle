@@ -16,7 +16,7 @@ body {
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: flex-start;
+    gap: 10px;
     padding: 20px;
 }
 .card {
