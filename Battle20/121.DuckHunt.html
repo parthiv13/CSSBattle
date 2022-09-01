@@ -1,0 +1,68 @@
+<div class='sky'></div>
+<div class='grass'>
+  <div class='bush left'></div>
+  <div class='bush right'></div>
+  <div class='bush top'></div>
+  <div class='bush middle'></div>
+  <div class='trunk'></div>
+  <div class='bush'></div>
+  <div class='bush up'></div>
+</div>
+<div class='ground'></div>
+<style>
+  body {
+    margin: 0;
+  }
+  .sky {
+    width: 100%;
+    height: 60%;
+    background: #1E92FF;
+  }
+  .ground {
+    height: calc(40% - 40px);
+    background: #6F6100
+  }
+  .grass {
+    height: 40px;
+    background: #69D10A;
+    position: relative;
+  }
+  .trunk {
+    position: absolute;
+    width: 20px;
+    height: 70px;
+    background: #441A0A;
+    bottom: 40px;
+    left: 50px;
+  }
+  .bush {
+    position: absolute;
+    width: 40px;
+    aspect-ratio: 1;
+    background: #69D10A;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 50px;
+    z-index: 999;
+  }
+  .left {
+    left: 20px;
+    bottom: 100px;
+  }
+  .right {
+    left: 60px;
+    bottom: 100px;
+  }
+  .top {
+    left: 40px;
+    bottom:120px;
+  }
+  .middle {
+    left: 40px;
+    bottom: 100px;
+  }
+  .up {
+    bottom: 50px
+  }
+</style>
+
