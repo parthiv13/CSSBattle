@@ -1,6 +1,6 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background: #fcfbfa;overflow-x: hidden;
+    background: #F3F6FD;overflow-x: hidden;
 }
 .container {
     width: 100%;
@@ -20,14 +20,15 @@ body {
     padding: 20px;
 }
 .card {
-    width: 30%;
+    width: 10%;
+    min-width: 190px;
     height: 50px;
     margin: 5px;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
+    border-radius: 10px;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow;
     text-align: center;
